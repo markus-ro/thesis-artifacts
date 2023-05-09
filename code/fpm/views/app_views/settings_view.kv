@@ -1,0 +1,26 @@
+#:kivy 1.0.9
+
+<ListItemSettings>
+    IconLeftWidget:
+        icon: root.icon
+
+    RightCheckbox:
+        id: checkbox
+
+<ListItemButton>
+    IconLeftWidget:
+        icon: root.icon
+
+    RightButton:
+        type: "small"
+        disabled: False
+        opacity: 1 if self.disabled else 0.6
+        pos_hint: {'center_y': .5}      
+        id: button
+
+<SettingsScreen>:
+    MDBoxLayout:
+        orientation: "vertical"
+        MDScrollView:
+            MDList:
+                id: settings_scroll

@@ -1,0 +1,41 @@
+{
+    "manifest_version": 2,
+    "name": "FPMBrowserPlugin",
+    "version": "1.0",
+  
+    "description": "Enables the browser to communiate with an FoundationPM instance",
+  
+    "browser_action": {
+      "default_icon": {
+        "48": "icons/fpm-48.png",
+        "96": "icons/fpm-96.png"
+      },
+      "default_title": "FoundationPM"
+    },
+
+    "icons": {
+      "48": "icons/fpm-48.png",
+      "96": "icons/fpm-96.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["js/fpm.js"]
+      }
+    ],
+    
+  "background": {
+    "scripts": ["js/background.js"]
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "mroese@upb.de",
+      "strict_min_version": "50.0"
+    }
+  },
+
+  "permissions": ["webRequest"]
+}
+  

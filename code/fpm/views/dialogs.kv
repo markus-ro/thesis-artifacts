@@ -1,0 +1,87 @@
+#:kivy 1.0.9
+
+<DetailDialogContent>
+    orientation: "vertical"
+    spacing: "12dp"
+    size_hint_y: None
+    height: "250dp"
+
+    MDTextField:
+        id: dialog_domain
+        hint_text: app.language["domain_field"]
+
+    MDTextField:
+        id: dialog_username
+        hint_text: app.language["username_field"]
+    
+    MDTextField:
+        id: dialog_password
+        hint_text: app.language["password_field"]
+
+    MDBoxLayout:
+        MDChip:
+            id: upper_case_chip
+            text: "A-Z"
+            on_release: root.on_release_chip("upper_case_chip")
+        MDLabel:
+            text: " "
+        MDChip:
+            id: numbers_chip
+            text: "0-9"
+            on_release: root.on_release_chip("numbers_chip")
+        MDLabel:
+            text: " "
+        MDChip:
+            id: special_chip
+            text: "+-*/&"
+            on_release: root.on_release_chip("special_chip")
+        MDRaisedButton:
+            height: "20dp"
+            text: app.language["generate_pw_button"]
+            on_press: root.on_generate_password()
+
+<ChangeDatabaseKeyContent>
+    orientation: "vertical"
+    spacing: "12dp"
+    size_hint_y: None
+    height: "200dp"
+    
+    MDTextField:
+        id: dialog_old_key
+        hint_text: app.language["old_key_field"]
+        password: True
+
+    MDTextField:
+        id: dialog_key
+        hint_text: app.language["new_key_field"]
+        password: True
+    
+    MDTextField:
+        id: dialog_repeat_key
+        hint_text: app.language["repeat_new_key_field"]
+        password: True
+
+<BCIAuthEnrollContent>
+    orientation: "vertical"
+    spacing: "6dp"
+    size_hint_y: None
+    height: "400dp"
+
+    MDBoxLayout:
+        MDLabel:
+            text: app.language["enrollment_diag_info"]
+
+    Image:
+        id: assigned_image
+        width: 250
+        allow_stretch: True
+
+    MDBoxLayout:
+        MDLabel:
+            id: info_text
+            visible: True
+            opacity: 1 if self.visible else 0
+            halign: "center"
+            theme_text_color: "Custom"
+            text_color: "#b71c1c"
+            text: app.language["enrollment_diag_fail"]

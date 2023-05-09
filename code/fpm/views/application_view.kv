@@ -1,0 +1,34 @@
+#:kivy 1.0.9
+#:import FadeTransition kivy.uix.screenmanager.FadeTransition
+
+<ApplicationScreen>:
+    MDBoxLayout:
+        orientation: "vertical"
+
+        MDBoxLayout:
+            MDNavigationRail:
+                type: "unselected"
+                anchor: "top"
+                
+                MDNavigationRailItem:
+                    text: app.language["home_nav"]
+                    icon: "home"
+                    on_release: root.on_overview_screen()
+
+                MDNavigationRailItem:
+                    text: app.language["settings_nav"]
+                    icon: "cog"
+                    on_release: root.on_settings_screen()
+
+            MDBoxLayout:
+                orientation: "vertical"
+
+                MDScreenManager:
+                    id: screen_manager
+
+                MDFloatingActionButtonSpeedDial:
+                    id: action_button
+                    data: {app.language["lock_ab"] : "account-lock", app.language["disconnect_ab"]  : "lan-disconnect", app.language["add_ab"] : "plus"}
+                    root_button_anim: True
+                    size_hint_y: 0.0001
+                    callback: root.on_action

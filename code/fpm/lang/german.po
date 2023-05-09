@@ -1,0 +1,196 @@
+# Language string
+msgid "language"
+msgstr "Deutsch"
+
+# General
+msgid "save_btn"
+msgstr "Speichern"
+
+msgid "cancel_btn"
+msgstr "Abbrechen"
+
+msgid "continue_btn"
+msgstr "Fortfahren"
+
+msgid "delete_btn"
+msgstr "Löschen"
+
+msgid "create_btn"
+msgstr "Erstellen"
+
+msgid "enroll_btn"
+msgstr "Registrieren"
+
+msgid "reset_btn"
+msgstr "Zurücksetzen"
+
+# DetailDialogContent
+msgid "generate_pw_button"
+msgstr "Generiere Passwort"
+
+msgid "domain_field"
+msgstr "Domain"
+
+msgid "username_field"
+msgstr "Nutzername"
+
+msgid "password_field"
+msgstr "Passwort"
+
+# ChangeDatabaseKeyContent
+msgid "old_key_field"
+msgstr "Alter Schlüssel"
+
+msgid "new_key_field"
+msgstr "Neuer Schlüssel"
+
+msgid "repeat_new_key_field"
+msgstr "Bitte neuen Schlüssel wiederholen"
+
+# Application View
+msgid "home_nav"
+msgstr "Start"
+
+msgid "bci_nav"
+msgstr "BCI"
+
+msgid "settings_nav"
+msgstr "Einstellungen"
+
+msgid "save_ab"
+msgstr "Speichern"
+
+msgid "lock_ab"
+msgstr "Sperren"
+
+msgid "disconnect_ab"
+msgstr "Schließen"
+
+msgid "add_ab"
+msgstr "Hinzufügen"
+
+msgid "saved_database_snack"
+msgstr "Datenbank gespeichert"
+
+# Login view
+msgid "path_to_database"
+msgstr "Pfad zur Datenbank"
+
+msgid "secret_key"
+msgstr "Geheimer Schlüssel"
+
+msgid "open_btn"
+msgstr "Öffnen"
+
+msgid "no_database_path_snack"
+msgstr "Bitte geben Sie eine Datenbank an"
+
+msgid "no_fpw_file_snack"
+msgstr "Angegebener Pfad zeigt nicht auf .fpw Datei"
+
+msgid "enter_key_snack"
+msgstr "Bitte Schlüssel eingeben"
+
+msgid "wrong_data_snack"
+msgstr "Etwas stimmt mit Ihren Daten nicht"
+
+msgid "file_connected_state_snack"
+msgstr "Kann Datenbank nicht ändern"
+
+# Overview Screen
+msgid "copy_empty_snack"
+msgstr "Leer kann nicht kopiert werden"
+
+msgid "copy_clipboard_snack"
+msgstr "In Zwischenablage kopiert"
+
+msgid "copy_username_sheet"
+msgstr "Nutzernamen kopieren"
+
+msgid "copy_password_sheet"
+msgstr "Passwort kopieren"
+
+msgid "edit_entry_sheet"
+msgstr "Eintrag bearbeiten"
+
+msgid "delete_entry_sheet"
+msgstr "Eintrag löschen"
+
+# Settings Screen
+msgid "general_category"
+msgstr "[b]Allgemein[/b]"
+
+msgid "dark_theme"
+msgstr "Dark Theme einschalten"
+
+msgid "logging"
+msgstr "Aktiviere Protokoll"
+
+msgid "file_logging"
+msgstr "Aktiviere Protokollieren von EEG-Signalen"
+
+msgid "device_connection"
+msgstr "Geräte Verbindung"
+
+msgid "change_database_key"
+msgstr "Geheimen Schlüssel ändern"
+
+msgid "browser_category"
+msgstr "[b]Browser[/b]"
+
+msgid "browser_support"
+msgstr "Browser Unterstützung aktivieren"
+
+msgid "plugin_auth"
+msgstr "Authentifizierung für Plugin"
+
+msgid "continuous_auth"
+msgstr "Kontinuierliche Authentifizierung aktivieren"
+
+msgid "bci_auth_category"
+msgstr "KeyWave"
+
+msgid "configure_bci_auth"
+msgstr "Konfiguriere KeyWave"
+
+msgid "restart_snack"
+msgstr "Bitte Anwendung neu starten"
+
+# Dialogs
+msgid "delete_text_diag"
+msgstr "Eintrag wirklich löschen?"
+
+msgid "edit_entry_diag"
+msgstr "Eintrag bearbeiten"
+
+msgid "new_entry_diag"
+msgstr "Eintrag hinzufügen"
+
+msgid "change_key_diag"
+msgstr "Datenbank Schlüssel ändern"
+
+msgid "no_database_connected_snack"
+msgstr "Keine Datenbank verbunden"
+
+msgid "incorrect_key_snack"
+msgstr "Bitte richtigen Schlüssel eingeben"
+
+msgid "fill_in_fields_snack"
+msgstr "Bitte alle Felder ausfüllen"
+
+msgid "keys_no_match_snack"
+msgstr "Neue Schlüssel stimmen nicht überein"
+
+msgid "browser_support_diag"
+msgstr "Browser-Unterstützung aktivieren"
+
+msgid "browser_support_warning"
+msgstr "Das aktivieren dieser Funktion erlaubt es, sich per Browser Plugin anzumelden. Dies kann potenziell gespeicherte Daten für Fremde einsehbar machen. Diese Einstellung sollte nur in kontrollierten Netzwerken gewählt werden."
+
+# enrollment diag
+msgid "enrollment_diag_info"
+msgstr "Sie müssen sich registrieren, um diese Funktion nutzen zu können. Bei der Registrierung müssen sie hierzu leise mitzählen, wie oft das unten angezeigte Bild in einer Reihe von Bildern vorkommt. Die Registrierung dauert eine Minute."
+
+msgid "enrollment_diag_fail"
+msgstr "Registrierung ist nicht möglich, da kein EEG-Gerät verbunden ist!"
+

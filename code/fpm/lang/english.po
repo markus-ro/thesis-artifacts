@@ -1,0 +1,195 @@
+# Language string
+msgid "language"
+msgstr "English"
+
+# General
+msgid "save_btn"
+msgstr "Save"
+
+msgid "cancel_btn"
+msgstr "Cancel"
+
+msgid "continue_btn"
+msgstr "Continue"
+
+msgid "delete_btn"
+msgstr "Delete"
+
+msgid "create_btn"
+msgstr "Create"
+
+msgid "enroll_btn"
+msgstr "Enroll"
+
+msgid "reset_btn"
+msgstr "Reset"
+
+# DetailDialogContent
+msgid "generate_pw_button"
+msgstr "Generate Password"
+
+msgid "domain_field"
+msgstr "Domain"
+
+msgid "username_field"
+msgstr "Username"
+
+msgid "password_field"
+msgstr "Password"
+
+# ChangeDatabaseKeyContent
+msgid "old_key_field"
+msgstr "Old Key"
+
+msgid "new_key_field"
+msgstr "New Key"
+
+msgid "repeat_new_key_field"
+msgstr "Repeat new Key"
+
+# Application View
+msgid "home_nav"
+msgstr "Home"
+
+msgid "bci_nav"
+msgstr "BCI"
+
+msgid "settings_nav"
+msgstr "Settings"
+
+msgid "save_ab"
+msgstr "Save"
+
+msgid "lock_ab"
+msgstr "Lock"
+
+msgid "disconnect_ab"
+msgstr "Disconnect"
+
+msgid "add_ab"
+msgstr "Add"
+
+msgid "saved_database_snack"
+msgstr "Saved Database"
+
+# Login view
+msgid "path_to_database"
+msgstr "Path to Database"
+
+msgid "secret_key"
+msgstr "Secret Key"
+
+msgid "open_btn"
+msgstr "Open"
+
+msgid "no_database_path_snack"
+msgstr "Please enter path to database"
+
+msgid "no_fpw_file_snack"
+msgstr "Path does not point to .fpw file"
+
+msgid "enter_key_snack"
+msgstr "Please enter a key"
+
+msgid "wrong_data_snack"
+msgstr "Something is off with the data you entered"
+
+msgid "file_connected_state_snack"
+msgstr "Can not set file in connected state"
+
+# Overview Screen
+msgid "copy_empty_snack"
+msgstr "Did not copy empty"
+
+msgid "copy_clipboard_snack"
+msgstr "Copied to Clipboard"
+
+msgid "copy_username_sheet"
+msgstr "Copy Username"
+
+msgid "copy_password_sheet"
+msgstr "Copy Password"
+
+msgid "edit_entry_sheet"
+msgstr "Edit Entry"
+
+msgid "delete_entry_sheet"
+msgstr "Delete Entry"
+
+# Settings Screen
+msgid "general_category"
+msgstr "[b]General[/b]"
+
+msgid "dark_theme"
+msgstr "Enable Dark Theme"
+
+msgid "logging"
+msgstr "Enable Logging"
+
+msgid "file_logging"
+msgstr "Log EEG Data"
+
+msgid "device_connection"
+msgstr "Device Connection"
+
+msgid "change_database_key"
+msgstr "Change Database Key"
+
+msgid "browser_category"
+msgstr "[b]Browser[/b]"
+
+msgid "browser_support"
+msgstr "Enable Browser Support"
+
+msgid "plugin_auth"
+msgstr "Enable KeyWave in Browser"
+
+msgid "continuous_auth"
+msgstr "Enable Continuous Authentication"
+
+msgid "bci_auth_category"
+msgstr "[b]KeyWave[/b]"
+
+msgid "configure_bci_auth"
+msgstr "Configure KeyWave"
+
+msgid "restart_snack"
+msgstr "Please restart application"
+
+# Dialogs
+msgid "delete_text_diag"
+msgstr "Do you really want to delete item?"
+
+msgid "edit_entry_diag"
+msgstr "Edit Entry"
+
+msgid "new_entry_diag"
+msgstr "New Entry"
+
+msgid "change_key_diag"
+msgstr "Change Database Key"
+
+msgid "no_database_connected_snack"
+msgstr "No database connected"
+
+msgid "incorrect_key_snack"
+msgstr "Please enter the correct key"
+
+msgid "fill_in_fields_snack"
+msgstr "Please fill in all fields"
+
+msgid "keys_no_match_snack"
+msgstr "New keys do not match"
+
+msgid "browser_support_diag"
+msgstr "Activate Browser Support"
+
+msgid "browser_support_warning"
+msgstr "Enabling this option allows for the usage of the companion browser plugin. This comes at the risk of exposing stored credentials. Please only use this setting in a controlled network environment."
+
+# enrollment diag
+msgid "enrollment_diag_info"
+msgstr "To use this function, please perform the enrollment procedure. In the procedure you have to silently count the number of times, the image below appears. The whole enrollment takes around one minute."
+
+msgid "enrollment_diag_fail"
+msgstr "Enrollment is impossible, as there is no EEG capable device connected!"

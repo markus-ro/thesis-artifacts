@@ -1,0 +1,58 @@
+#:kivy 1.0.9
+
+<LoginScreen>:
+    MDCard:
+        size_hint: None, None
+        size: 400, 300
+        pos_hint: {"center_x": 0.5, "center_y": 0.5}
+        padding: 25
+        spacing: 25
+        orientation: 'vertical'
+
+        MDBoxLayout:
+            pos_hint: {"center_x": 0.6}
+            width: 300
+            padding: 0
+
+            MDTextField:
+                id: path_to_database
+                hint_text: app.language["path_to_database"]
+                size_hint_x: None
+                width: 250
+                font_size: 18
+                pos_hint: {"left_x": 0}
+
+            MDIconButton:
+                id: discover_btn
+                icon: "folder"
+                width: 50
+                font_size: 18
+                pos_hint: {"right_x": 1, "center_y": 0.35}
+                on_press: root.on_discover_btn()
+
+        MDTextField:
+            id: secret_key
+            hint_text: app.language["secret_key"]
+            size_hint_x: None
+            width: 280
+            font_size: 18
+            pos_hint: {"center_x": 0.5}
+            password: True
+
+        MDRaisedButton:
+            text: app.language["open_btn"]
+            font_size: 12
+            pos_hint: {"center_x": 0.5}
+            on_press: root.overview_button()
+    
+    MDIconButton:
+        id: database_lock_indicator
+        icon: "database-lock"
+        pos_hint: {"center_x": .97, "center_y": .97}
+        _no_ripple_effect: True
+    
+    MDIconButton
+        id: device_connection_indicator
+        icon: "access-point-check"
+        pos_hint: {"center_x": .03, "center_y": .97}
+        _no_ripple_effect: True
