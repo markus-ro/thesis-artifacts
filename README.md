@@ -105,7 +105,7 @@ Pictures in the [example folder of NeuroPack](./code/neuropack/examples/data/ima
 This repository is an archive and, therefore, not open for contributions.
 
 # Acknowledgements
-I thank my supervisor, Patricia, for her guidance, encouragement, and patience while working on this thesis. Further, I thank all members of her group, who were always willing to help and support me if needed. My deepest gratitude goes to Jan-Luca, Niko, and Serkis for helping proofread my thesis. Lastly, I thank everyone who participated in my user study or the initial pilot study.
+I thank my supervisor, Patricia, for her guidance, encouragement, and patience while working on this thesis. Further, I thank all members of her group, who were always willing to help and support me if needed. Likewise, I would like to express my thanks to Felix, who has always been willing to offer his assistance beyond his role as the second reviewer. My deepest gratitude goes to Jan-Luca, Niko, and Serkis for helping proofread my thesis. Lastly, I thank everyone who participated in my user study or the initial pilot study.
 
 # References
 [1] A. Barachant, "muse-lsl-python” GitHub, 2017. https://github.com/urish/muse-lsl-python (accessed Apr. 25, 2023).
