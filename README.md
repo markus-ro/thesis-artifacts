@@ -72,7 +72,12 @@ pip install -r code/requirements.txt
 Once installed, the Foundation Password Manager can be started by starting the main.py file in the fpm folder or using the "StartFPM.bat" file on Windows, respectively, the "StartFPM.sh" file on Linux. In all cases, the scripts must be used with the root folder of this repository as the working directory.
 
 # Usage
-A description of how to use the FPM can be found within the thesis. Likewise, an overview of the components included in NeuroPack can be found within the thesis. Additionally, this repository contains several Jupyter Notebooks providing examples of how NeuroPack can be used:
+A description of how to use the FPM can be found within the thesis. Likewise, an overview of the components included in NeuroPack can be found within the thesis. Additionally, this repository contains several Jupyter Notebooks providing examples of how NeuroPack can be used. To use these, Jupyter has to be installed and setup separately:
+```
+pip install jupyter
+```
+
+The notebooks are:
 - [A short introduction to NeuroPack](./code/neuropack/examples/introduction.ipynb)
 - [Recreation of the recording process described by Krigolson et al. [1]](./code/neuropack/examples/P300_Krigolson.ipynb)
 - [Playground for the different ERP acquisition tasks](./code/neuropack/examples/tasks.ipynb)
