@@ -6,7 +6,7 @@
 
 This repository contains all additional artifacts created for my master's thesis, "Usability and Security of Brainwave-Based Authentication in Real-World Applications". 
 
-The thesis was written at the IT Security group at Paderborn University. Further, it was supervised by Patricia Arias Cabarcos, who also leads the group. The contents of this repository represent the state of all additional artifacts at the time of submission. This repository does not include the data used within the thesis. For testing of NeuroPack, new data can be recorded if a compatible device is present. Alternatively, data from other sources and projects can be used [1].
+The thesis was written at the IT Security group at Paderborn University. Further, it was supervised by Patricia Arias Cabarcos, who also leads the group. The contents of this repository represent the state of all additional artifacts at the time of submission. This repository does not include the data used within the thesis. For testing of NeuroPack, new data can be recorded if a compatible device is present. Alternatively, data from other sources and projects can be used [1] (ERP event is marked with a "2" here, this needs to be specfied when loading a file).
 
 
 ### Text Artifacts 📄
