@@ -31,7 +31,6 @@ Further, it is recommended to use a virtual environment. Instruction on how to d
 For NeuroPack to work, it requires several external dependencies to be installed. The following are needed:
 ```
 play_sounds
-tk
 scipy
 matplotlib
 statsmodels
@@ -43,7 +42,7 @@ To install these dependencies, please use the following command:
 pip install -r code/neuropack/requirements.txt
 ```
 
-On some systems, the used TKinter GUI framework needs additional steps to be used. Please refer to the official documentation in case of problems.
+On some systems, the used TKinter GUI framework needs additional steps to be used. Please refer to the official documentation for installation instructions and in case of problems.
 
 ## Foundation Password Manager
 Likewise to NeuroPack, the FPM requires several external dependencies to be installed. Most of these are used to create the GUI (Kivy), communicate with the browser plugin (CherryPy), or use system features like file choosers or the clipboard (Plyer, Pyperclip). The following dependencies are required:

@@ -1,5 +1,4 @@
 play_sounds
-tk
 scipy
 matplotlib
 statsmodels
